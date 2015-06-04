@@ -1,0 +1,90 @@
+.page-wrapper {
+  display: inline-block;
+  width:80%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: inline-flex;
+  width: 60%;
+  height: 50%;
+  background-color: rgb(182, 219, 178);
+  color: white;
+  font-size: 3vmax;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-3 :hover{
+  background-color: rgb(182, 219, 178);
+}
+
+
+.block-3 {
+  width: 24%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  background-color: rgb(100, 178, 85);
+  margin: .5%;
+}
+
+.block-9 {
+  width: 74%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  background-color: rgb(100, 178, 85);
+  margin: .5%;
+}
+
+
+#a-btn {
+  background-color: rgb(131, 193, 120);
+  color: black;
+}
+
+#a-btn:hover {
+  background-color: rgb(182, 219, 178);
+}
+
+#s-btn {
+  background-color: rgb(131, 193, 120);
+  color: black;
+}
+
+#s-btn:hover {
+  background-color: rgb(182, 219, 178);
+}
+
+
+#m-btn {
+  background-color: rgb(131, 193, 120);
+  color: black;
+}
+
+#m-btn:hover {
+  background-color: rgb(182, 219, 178);
+}
+
+#d-btn {
+  background-color: rgb(131, 193, 120);
+  color: black;
+}
+
+#d-btn:hover {
+  background-color: rgb(182, 219, 178);
+}
+
+.block-9:hover {
+  background-color: rgb(182, 219, 178);
+}
+
+.block-3:hover {
+  background-color: rgb(182, 219, 178);
+}

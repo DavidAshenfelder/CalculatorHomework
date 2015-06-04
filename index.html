@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  <title>Calculator</title>
+</head>
+<body>
+
+  <h3>Let's Do Some Math!</h3>
+
+  <input type="text" id="num_one" />
+  <br /><br />
+  <input type="text" id="num_two" />
+  <br /><br />
+  <input type="button" class="mathbtn" id="add" value=" + ">
+  <input type="button" class="mathbtn" id="subtract" value=" - ">
+  <input type="button" class="mathbtn" id="multiply" value=" * ">
+  <input type="button" class="mathbtn" id="divide" value=" / ">
+  <br /><br />
+  <input type="submit" value="Calculate" id="calculateBtn" />
+
+  <div class="answer">
+    <br />
+    Answer: <span id="answer"></span>
+
+
+  </div>
+
+  <div class="page-wrapper">
+    <div class="row">
+      <div id="clear" class="block-3">
+        <p>
+          C
+        </p>
+      </div>
+      <div class="block-9">
+        <p id="window">
+
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="7" class="block-3" data-value ="7">
+        <p>
+          7
+        </p>
+      </div>
+      <div id="8"class="block-3" data-value ="8">
+        <p>
+          8
+        </p>
+      </div>
+      <div id="9"class="block-3" data-value ="9">
+        <p>
+          9
+        </p>
+      </div>
+      <div id ="d-btn" class="block-3" data-value ="/">
+        <p>
+          /
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="4" class="block-3" data-value ="4">
+        <p>
+          4
+        </p>
+      </div>
+      <div id="5" class="block-3" data-value ="5">
+        <p>
+          5
+        </p>
+      </div>
+      <div id="6" class="block-3" data-value ="6">
+        <p>
+          6
+        </p>
+      </div>
+      <div id ="m-btn" class="block-3" data-value ="*">
+        <p>
+          X
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="1" class="block-3" data-value ="1">
+        <p>
+          1
+        </p>
+      </div>
+      <div id="2" class="block-3" data-value ="2">
+        <p>
+          2
+        </p>
+      </div>
+      <div id="3" class="block-3" data-value ="3">
+        <p>
+          3
+        </p>
+      </div>
+      <div id ="s-btn" class="block-3" data-value ="-">
+        <p>
+          -
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="0" class="block-3" data-value ="0">
+        <p>
+          0
+        </p>
+      </div>
+      <div id="." class="block-3" data-value =".">
+        <p>
+          .
+        </p>
+      </div>
+      <div id="equal" class="block-3">
+        <p>
+          =
+        </p>
+      </div>
+      <div id ="a-btn" class="block-3" data-value ="+">
+        <p>
+          +
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
